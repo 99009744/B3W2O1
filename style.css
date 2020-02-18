@@ -1,0 +1,93 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#fullpage{
+    width: 900px;
+    height: 800px;
+    margin: auto;
+}
+#koptext{
+    font-size: 102px;
+    color: black;
+    margin: 12px;
+    text-align: center;
+    font-family: 'Lacquer', sans-serif;
+    text-shadow: -2px -2px 0 red, 2px -2px 0 red, -2px 2px 0 red, 2px 2px 0 red;
+}
+#top{
+    width: 900px;
+    height: 50px;
+    background-color:black;
+    border: red solid 1px;
+    padding: 10px;
+}
+#top>a:hover{
+    color: red;
+    cursor: grab;
+}
+#bottom{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 900px;
+    height: auto;
+    background-color: black;
+    color: red;
+    border: white solid 2px;
+    position: relative;
+}
+#footer{
+    width: 900px;
+    height: 50px;
+    border: red solid 1px;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    padding-right: 25px;
+}
+#title{
+    padding: 0;
+    margin: 0;
+    padding: 25px;
+}
+form{
+    padding: 25px;
+}
+h1{
+    font-size: 36px;
+}
+p{
+    font-size: 18px;
+    width: 60%;
+    display: inline-block;
+}
+.input{
+    margin-right: 30px;
+    width: 25%;
+    margin-left: 50px;
+    background-color: black;
+    border: white 1px solid;
+    color: red;
+}
+
+#submit{
+    background-color: black;
+    border: white 1px solid;
+    color: red;
+    width: 100%;
+    font-size: 16px;
+
+}
+h3{
+    width: 90%;
+    font-size: 16px;
+    margin-left: 25px;
+}

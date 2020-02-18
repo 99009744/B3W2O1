@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+    <title>Er heerst paniek...</title>
+</head>
+<body>
+    <div id="fullpage">
+        
+        <h1 id="koptext">Mad Libs</h1>
+        <div id="top">
+            <a id="index.html" href="formulier_paniek.html">Er heerst paniek...</a>
+            <a id="index.html" href="formulier_onkunde.html">Onkunde</a>
+        </div>
+        <div id="bottom">
+            <h1 id="title">Er heerst paniek</h1>
+            <form action="resultaat_onkunde.php" method="POST">
+                <p>Wat zou je graag willen kunnen?</p> <input type="text" name="vraag1" class="input" required/><br>
+                <p>Met welke persoon kun je goed opschieten?</p> <input type="text" name="vraag2" class="input" required/><br>
+                <p>Wat is je favoriete getal?</p><input type="text" name="vraag3" class="input" required/><br>
+                <p>Wat heb je altijd bij je als je op vakantie gaat?</p><input type="text" name="vraag4" class="input" required/><br>
+                <p>Wat is je beste persoonlijke eigenschap?</p><input type="text" name="vraag5" class="input" required/><br>
+                <p>Wat is je slechtste persoonlijke eigenschap?</p><input type="text" name="vraag6" class="input" required/><br>
+                <input type="submit" id="submit" name="button">
+                </form>
+        </div>
+        <div id="footer">© Mitchell 2020</div>
+    </div>
+</body>
+</html>
