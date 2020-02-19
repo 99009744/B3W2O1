@@ -1,6 +1,7 @@
 *{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     box-sizing: border-box;
+    border-radius: 1em;
 }
 body{
     background-color: black;
@@ -24,6 +25,7 @@ body{
     background-color:black;
     border: red solid 1px;
     padding: 10px;
+    
 }
 #top>a:hover{
     color: red;
@@ -76,6 +78,7 @@ p{
     background-color: black;
     border: white 1px solid;
     color: red;
+    height: 40px;
 }
 
 #submit{
@@ -84,6 +87,7 @@ p{
     color: red;
     width: 100%;
     font-size: 16px;
+    margin-top: 25px;
 
 }
 h3{
